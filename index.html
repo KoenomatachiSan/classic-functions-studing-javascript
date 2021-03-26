@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Título da página</title>
+</head>
+<body>
+  <script>
+  // OBS -> Classic functions return promises of processing
+  // therefore it cannot be used for activities that need an extreme chronological order,
+  // as it will return a promise instead of the result of a long equation
+    
+  function writeHelloWorld(){
+    console.log("Hello World");
+  }
+  writeHelloWorld();// return "hello world"
+  
+  function writeMyText(text){
+     console.log(text);
+  }
+    
+  writeMyText("It is my text"); // return "It is my text
+  
+  function some(x,y){
+     console.log(x+y);
+  }
+    
+  some(1,1); // Return 2
+    
+  </script>
+Conteúdo da página
+</body>
+</html>
